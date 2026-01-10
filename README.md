@@ -89,11 +89,11 @@ This guarantees that observed differences are attributable to **sensor character
   <tr>
     <td align="center">
       <img alt="dual IMU_module top" src="https://github.com/user-attachments/assets/017da5c6-ed05-40b4-acdb-1a61fba30c09" width="550"><br>
-      <sub> Power Stage PCB – Top View </sub>
+      <sub> Dual IMU PCB – Top View </sub>
     </td>
     <td align="center">
         <img  alt="dual IMU_module botton" src="https://github.com/user-attachments/assets/744e3f59-d382-4c1d-8081-269b4a3b273b" width="550"><br>
-      <sub>Power Stage PCB – Bottom View </sub>
+      <sub> Dual IMU PCB – Bottom View </sub>
     </td>
   </tr>
 </table>
