@@ -4,7 +4,7 @@
 
 This repository documents an **updated inertial sensing stage for an unmanned aerial vehicle (UAV)**, developed as a **standalone PCB** to improve measurement quality, stability, and robustness of inertial measurements.
 
-Originally, the UAV relied on a **single IMU integrated on the control PCB**.  
+Originally, the UAV used an **MPU6050 IMU** integrated into the control PCB for inertial measurements.  
 In this revision, inertial sensing was **fully separated into a dedicated evaluation board**, enabling **simultaneous measurement and comparison** of two different IMUs:
 
 - **BMI088** (Bosch)
