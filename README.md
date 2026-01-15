@@ -98,6 +98,15 @@ This guarantees that observed differences are attributable to **sensor character
   </tr>
 </table>
 
+## ⚡ Physical Prototype
+
+The following image shows the complete setup of the **prototype version**:
+
+<p align="center">
+<img width="700" alt="Dual IMU" src="https://github.com/user-attachments/assets/ef5f3b8e-822f-4ebf-8500-39b027f851a8" />
+</p>
+
+
 ## ⚠️ Disclaimer
 
 This project is intended **for educational and experimental purposes only**.  
