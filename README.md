@@ -102,10 +102,18 @@ This guarantees that observed differences are attributable to **sensor character
 
 The following image shows the complete setup of the **prototype version**:
 
-<p align="center">
-<img width="550" alt="Dual IMU" src="https://github.com/user-attachments/assets/ef5f3b8e-822f-4ebf-8500-39b027f851a8" />
-</p>
-
+<table>
+  <tr>
+    <td align="center">
+      <img alt="dual IMU_module PCB" src="https://github.com/user-attachments/assets/3224257f-2846-4299-a638-78842e59a997" width="550"><br>
+      <sub> Dual IMU PCB – Top View </sub>
+    </td>
+    <td align="center">
+        <img  alt="dual IMU_module PCB " src="https://github.com/user-attachments/assets/5d49c68f-5d1c-4397-876b-87cf7257769c" width="550"><br>
+      <sub> Dual IMU PCB – Bottom View </sub>
+    </td>
+  </tr>
+</table>
 
 ## ⚠️ Disclaimer
 
