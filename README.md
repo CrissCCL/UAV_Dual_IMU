@@ -106,11 +106,11 @@ The following image shows the complete setup of the **prototype version**:
   <tr>
     <td align="center">
       <img alt="dual IMU_module PCB" src="https://github.com/user-attachments/assets/3224257f-2846-4299-a638-78842e59a997" width="550"><br>
-      <sub> Dual IMU PCB – Top View </sub>
+      <sub> Dual IMU PCB unmounted </sub>
     </td>
     <td align="center">
         <img  alt="dual IMU_module PCB " src="https://github.com/user-attachments/assets/5d49c68f-5d1c-4397-876b-87cf7257769c" width="550"><br>
-      <sub> Dual IMU PCB – Bottom View </sub>
+      <sub> Dual IMU PCB </sub>
     </td>
   </tr>
 </table>
