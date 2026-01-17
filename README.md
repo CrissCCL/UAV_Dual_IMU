@@ -14,7 +14,7 @@ This modular architecture supports informed hardware decisions before final inte
 
 ## 📂 Contents
 
-- `/Hardware` → Schematic, Gerbers.
+- `/Hardware` → schematic, Gerbers and BOM+POS for PCBA.
 
 ## 🔗 Project Context
 
