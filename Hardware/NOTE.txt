@@ -1,0 +1,8 @@
+If you are going to manufacture the PCB using PCBA, or if you are going to purchase the components separately, replace Capacitor_SMD:CP_Elec_4x4.5 with:
+
+-40°C to +85°C 2.2µF 2000hrs@85°C 4mm 5.5mA@100kHz 50V 5mm ±20% SMD, D4xL5mm Aluminum Electrolytic Capacitors - SMD ROHS
+
+Note: The closest commercially available capacitor size is 4x5mm.
+
+
+If you are going to manufacture the PCB using PCBA, review and adjust any components that show warnings to match the available parts list on the website.
