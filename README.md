@@ -16,6 +16,10 @@ This modular architecture supports informed hardware decisions before final inte
 
 - `/Hardware` → schematic, Gerbers and BOM+POS for PCBA.
 
+## 🌐 YouTube
+
+📺 [Failover IMU](https://youtube.com/shorts/ujR3OjFHcZo)
+
 ## 🔗 Project Context
 
 This dual IMU evaluation board is part of the ongoing hardware updates for the **DIY UAV project**.
@@ -82,6 +86,46 @@ The evaluation methodology ensures consistency across both sensors:
 - Same data processing pipeline
 
 This guarantees that observed differences are attributable to **sensor characteristics**, not system-level artifacts.
+
+## ✅ Test Results — IMU Failover (IMU1 → IMU2)
+
+A failover test was performed to validate the system behavior when the primary IMU becomes unavailable or unstable.
+
+### Test Objective
+Verify that the system can automatically switch from **IMU1** to **IMU2** during runtime, maintaining valid inertial measurements.
+
+### Test Method
+- **IMU1** was configured as the primary sensor at startup.
+- A fault condition was introduced on IMU1 (disconnect / communication loss / invalid readings).
+- The system monitored the IMU health status and triggered a failover event.
+- After failover, **IMU2** was selected as the active sensor.
+
+### Failover Criteria (Health Check)
+The system triggers the IMU switch when one of the following conditions is detected:
+- I2C timeout / no response
+- Out-of-range or invalid sensor values
+- Persistent mismatch between IMU1 and IMU2
+- Consecutive mismatch counter exceeding a threshold
+
+### Results Summary
+- ✅ Failover successfully triggered when IMU1 fault condition was detected
+- ✅ IMU2 became the active sensor and continued streaming valid data
+- ✅ No system reset was required during the switch
+- ✅ Recovery behavior confirmed (optional: switch back to IMU1 if restored)
+
+### Evidence (Plots / Logs)
+
+**Example output format (CSV):**
+`roll, pitch, yaw, primary, mismatch, cnt`
+
+- `primary = 0` → IMU1 active  
+- `primary = 1` → IMU2 active  
+
+![Failover Plot](media/images/imu_failover_test.png)
+
+> 📌 **Note:** During the failover event, `primary` changes from **0 → 1**, confirming the sensor switch.
+
+
 
 ## 🖼️ PCB Render Visualization
 
