@@ -122,11 +122,12 @@ The system triggers the IMU switch when one of the following conditions is detec
 - `primary = 0` → IMU1 active  
 - `primary = 1` → IMU2 active  
 
-![Failover Plot](media/images/imu_failover_test.png)
+
+<p align="center">
+<img alt="imu_failover_test" src="https://github.com/user-attachments/assets/10939579-b64f-4e18-8dea-3ba132484fbc" width="700">
+</p>
 
 > 📌 **Note:** During the failover event, `primary` changes from **0 → 1**, confirming the sensor switch.
-
-
 
 ## 🖼️ PCB Render Visualization
 
