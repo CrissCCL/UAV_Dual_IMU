@@ -100,7 +100,7 @@ This guarantees that observed differences are attributable to **sensor character
 
 ## ⚡ Physical Prototype
 
-The following image shows the complete setup of the **prototype version V1 **:
+The following image shows the complete setup of the **prototype version V1**:
 
 <table>
   <tr>
