@@ -15,6 +15,7 @@ This modular architecture supports informed hardware decisions before final inte
 ## 📂 Contents
 
 - `/Hardware` → schematic, Gerbers and BOM+POS for PCBA.
+- `/test_dual_angle_failover` → C code for Teensy/Arduino.
 
 ## 🌐 YouTube
 
