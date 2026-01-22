@@ -111,7 +111,7 @@ The system triggers the IMU switch when one of the following conditions is detec
 ### 🔁 Dual-IMU Comparison + Automatic Failover Logic (Flowchart)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eeef3351-3479-4e96-bbde-41bc57b560a6" width="750">
+  <img alt="flowchart" src="https://github.com/user-attachments/assets/ee94ecae-a29f-4c99-bcbf-9195b1177c3d" width="400">
 </p>
 
 ### Results Summary
