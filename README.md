@@ -108,6 +108,12 @@ The system triggers the IMU switch when one of the following conditions is detec
 - Persistent mismatch between IMU1 and IMU2
 - Consecutive mismatch counter exceeding a threshold
 
+### 🔁 Dual-IMU Comparison + Automatic Failover Logic (Flowchart)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eeef3351-3479-4e96-bbde-41bc57b560a6" width="750">
+</p>
+
 ### Results Summary
 - ✅ Failover successfully triggered when IMU1 fault condition was detected
 - ✅ IMU2 became the active sensor and continued streaming valid data
