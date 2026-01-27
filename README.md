@@ -1,4 +1,4 @@
-# 🧠🛩️ UAV Dual IMU Evaluation Board
+# 📐🛩️ UAV Dual IMU Evaluation Board
 
 ## Overview
 
@@ -140,11 +140,11 @@ The system triggers the IMU switch when one of the following conditions is detec
 <table>
   <tr>
     <td align="center">
-      <img alt="dual IMU_module top V2" src="https://github.com/user-attachments/assets/1fffd14f-142e-477e-a7c2-cd1da5cd41ec" width="550"><br>
+      <img alt="dual IMU_module top V2" src="https://github.com/user-attachments/assets/2a4c3bcc-786a-4df1-a85d-c723fea58126 width="550"><br>
       <sub> Dual IMU PCB V2 – Top View </sub>
     </td>
     <td align="center">
-        <img  alt="dual IMU_module botton V2" src="https://github.com/user-attachments/assets/3fea04d8-1986-430d-943e-597cff942891" width="550"><br>
+        <img  alt="dual IMU_module botton V2" src="https://github.com/user-attachments/assets/68846fde-b554-45c8-acc2-ae7cef270093" width="550"><br>
       <sub> Dual IMU PCB V2 – Bottom View </sub>
     </td>
   </tr>
