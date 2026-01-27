@@ -140,7 +140,7 @@ The system triggers the IMU switch when one of the following conditions is detec
 <table>
   <tr>
     <td align="center">
-      <img alt="dual IMU_module top V2" src="https://github.com/user-attachments/assets/2a4c3bcc-786a-4df1-a85d-c723fea58126 width="550"><br>
+      <img alt="dual IMU_module top V2" src="https://github.com/user-attachments/assets/2a4c3bcc-786a-4df1-a85d-c723fea58126" width="550"><br>
       <sub> Dual IMU PCB V2 – Top View </sub>
     </td>
     <td align="center">
