@@ -1,5 +1,11 @@
 # 📐🛩️ UAV Dual IMU Evaluation Board
 
+![Embedded](https://img.shields.io/badge/Embedded-Teensy-blue)
+![C++](https://img.shields.io/badge/C++-Firmware-green)
+![Sensors](https://img.shields.io/badge/Sensors-IMU%20Fusion-orange)
+![PCB](https://img.shields.io/badge/PCB-KiCad-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 ## Overview
 
 This repository documents an **updated inertial sensing stage for an unmanned aerial vehicle (UAV)**, developed as a **standalone PCB** to improve measurement quality, stability, and robustness of inertial measurements.
